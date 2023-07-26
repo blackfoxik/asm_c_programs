@@ -29,4 +29,4 @@ sys_write:  mov eax, 4
             jmp generic_syscall_3
 
 section .bss
-sys_errno   resd
+sys_errno   resd 1
